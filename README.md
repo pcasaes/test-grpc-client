@@ -6,7 +6,7 @@ to run on linux
 ./mvnw clean verify
 ```
 
-to run on windows or mac use docker
+to run on windows use docker
 
 ```shell
 docker run --rm -it -v .:/work maven:3.9-amazoncorretto-21 /bin/bash
