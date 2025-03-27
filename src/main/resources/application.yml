@@ -1,0 +1,9 @@
+quarkus:
+  vertx:
+    prefer-native-transport: true # disabling this will pass
+  grpc:
+#    server:
+#      use-separate-server: false # disabling this will stil lfail
+#    clients:
+#      "test":
+#        use-vertx-event-loop: false # disabling this will pass
